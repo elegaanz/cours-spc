@@ -143,7 +143,7 @@ export function App() {
                 <table>
                     <tbody>
                         {Object.keys(registers).map(r =>
-                            <tr key={r}>
+                            <tr key={r} className={r == 'CR3' ? 'hl' : ''}>
                                 <td>{r}</td>
                                 <td>{registers[r]}</td>
                             </tr>
