@@ -1,0 +1,77 @@
+.exo {
+    text-align: center;
+    font-family: sans-serif;
+
+    header {
+        margin-bottom: 1em;
+    }
+
+    button {
+        background: #c560ab;
+        border: none;
+        appearance: none;
+        color: white;
+        padding: 1em 2em;
+        border-radius: 20px;
+        margin: 0 1em;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .table {
+        border: 2px solid gray;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    h2 {
+        margin: 0.5em 1em;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0;
+        text-align: center;
+    }
+
+    tr:nth-child(2n+1) {
+        background: #f0f0f0;
+    }
+
+    tr td:nth-child(2n) {
+        font-family: monospace;
+    }
+
+    td {
+        padding: 0.5em;
+    }
+
+    tr.hl {
+        background: #ffe7a5;
+    }
+
+    tr {
+        text-align: center;
+    }
+
+    thead {
+        font-weight: bold;
+    }
+}
+
+.orange {
+    color: salmon;
+}
+
+.blue {
+    color: lightseagreen;
+}
+
+.green {
+    color: lightgreen;
+}

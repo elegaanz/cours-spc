@@ -1,0 +1,15 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.5.0",
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
