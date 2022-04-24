@@ -1,6 +1,9 @@
 +++
 title = "Pagination"
 weight = 3
+
+[extra]
+illus = 'illus.avif'
 +++
 
 Le système de protection de la mémoire qui est le plus utilisé aujourd'hui est la **pagination**.
