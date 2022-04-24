@@ -50,6 +50,8 @@ et les 12 derniers sont le décalage dans la page.
 
 ![](traduction.png)
 
+Dans l'illustration ci-dessus, la valeur qui est lue est `42`.
+
 ## Exercice
 
 Si tu veux t'entraîner un peu et vérifier que tu as bien compris, voici un petit exercice interactif
