@@ -4,18 +4,23 @@ body {
     padding: 0;
 }
 
+html, body, #app, .exo { height: 100%; }
+
 h1 {
     margin: 0;
 }
 
 .exo {
-    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background: white;
     text-align: center;
     font-family: sans-serif;
 
     header {
-        margin-bottom: 1em;
+        margin: 1em 0;
     }
 
     button {
@@ -29,6 +34,7 @@ h1 {
     }
 
     main {
+        padding: 1em;
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
@@ -44,7 +50,7 @@ h1 {
 
         max-height: 70vh;
         overflow-y: auto;
-        box-shadow: 0px 0px 20px #cccccc77;
+        box-shadow: 0 0 20px #cccccc77;
 
         p {
             text-align: justify;
@@ -118,6 +124,31 @@ h1 {
         white-space: pre-wrap;
         text-align: left;
     }
+
+    footer {
+        margin-top: 2em;
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        border-top: 1px solid black;
+        box-shadow: 0 0 1em gray;
+        text-align: left;
+
+        & > * {
+            margin: 0;
+            padding: 1em;
+        }
+
+        & > *:not(:last-child) {
+            border-right: 1px solid black;
+        }
+
+        & > p {
+            text-align: justify;
+        }
+    }
 }
 
 .orange {
@@ -130,4 +161,16 @@ h1 {
 
 .green {
     color: lightgreen;
+}
+
+input, .monospace {
+    font-family: monospace;
+}
+
+button {
+    cursor: pointer;
+}
+
+#answer {
+    display: inline-block;
 }
