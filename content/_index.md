@@ -19,5 +19,5 @@ Ou celle-ci ?
 
 Si c'est le cas, tu es au bon endroit !
 
-Ce site a pour but de fournir un cours de SPC écrit, avec des schémas interactifs et
+Ce site a pour but de fournir un cours de SPC écrit, avec des schémas et
 des petits exercices pour bien comprendre ce qu'il se passe à l'intérieur des ordinateurs.
